@@ -1,0 +1,6 @@
+﻿  function.cpp
+C:\Users\dokgo\OneDrive\바탕 화면\2023.2\객체지향 프로그래밍\termproject\termproject\function.cpp(34,6): warning C4101: 'input_back' :참조되지 않은 지역 변수입니다.
+C:\Users\dokgo\OneDrive\바탕 화면\2023.2\객체지향 프로그래밍\termproject\termproject\function.cpp(47,6): warning C4101: 'input_back' :참조되지 않은 지역 변수입니다.
+  main.cpp
+  코드를 생성하고 있습니다...
+  termproject.vcxproj -> C:\Users\dokgo\OneDrive\바탕 화면\2023.2\객체지향 프로그래밍\termproject\x64\Debug\termproject.exe
