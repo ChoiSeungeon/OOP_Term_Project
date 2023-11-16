@@ -1,5 +1,8 @@
 ﻿  product.cpp
-C:\Users\dokgo\OneDrive\바탕 화면\teamproject\OOP_Trem_Project\source\termproject\product.cpp(7,6): warning C4101: 'input_back' :참조되지 않은 지역 변수입니다.
-C:\Users\dokgo\OneDrive\바탕 화면\teamproject\OOP_Trem_Project\source\termproject\product.cpp(24,6): warning C4101: 'input_back' :참조되지 않은 지역 변수입니다.
-C:\Users\dokgo\OneDrive\바탕 화면\teamproject\OOP_Trem_Project\source\termproject\product.cpp(38,6): warning C4101: 'input_back' :참조되지 않은 지역 변수입니다.
-  termproject.vcxproj -> C:\Users\dokgo\OneDrive\바탕 화면\teamproject\OOP_Trem_Project\source\x64\Debug\termproject.exe
+C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\product.cpp(7,6): warning C4101: 'input_back' :참조되지 않은 지역 변수입니다.
+C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\product.cpp(24,6): warning C4101: 'input_back' :참조되지 않은 지역 변수입니다.
+C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\product.cpp(38,6): warning C4101: 'input_back' :참조되지 않은 지역 변수입니다.
+  main.cpp
+  test2.cpp
+  코드를 생성하고 있습니다...
+  termproject.vcxproj -> C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\x64\Debug\termproject.exe
