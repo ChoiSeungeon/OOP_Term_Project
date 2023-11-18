@@ -1,5 +1,11 @@
 #include "menu.h"
+#include "ProductManager.h"
 
 int main(void) {
-	main_menu();
+	vector<Product*> products = getProducts();
+
+	for (auto& p : products)
+		p->view();
+
+	//main_menu();
 }
