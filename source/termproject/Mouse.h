@@ -2,11 +2,11 @@
 #include "Product.h"
 
 class Mouse : public Product {
-	static int mouseNum;
-	string type;			// 광, 레이저, 적외선,,,
-	int	sensitivity;		// 감도
-	bool wired;				// 유무선 여부
+	static int num;
+	bool mouse_cable;
 public:
-	static int getMouseNum();
-	Mouse(string name, string type, int sensitivity, bool wired);
+	static int getNum();
+	void view();
+	void write();
+	Mouse(string name, string manufacturer, bool mouse_cable);
 };

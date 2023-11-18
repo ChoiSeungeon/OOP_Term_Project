@@ -2,11 +2,12 @@
 #include "Product.h"
 
 class Keyboard : public Product {
-	static int keyboardNum;
-	string type;			// 기계식, 무접점, 멤브레인,,,
-	string keyType;			// 적축, 갈축, 청축
-	bool wired;				// 유무선 여부
+	static int num;
+	string arragement;
+	string type;
 public:
-	static int getKeyboardNum();
-	Keyboard(string name, string type, bool wired);
+	static int getNum();
+	void view();
+	void write();
+	Keyboard(string name, string manufacturer, string arragement, string type);
 };

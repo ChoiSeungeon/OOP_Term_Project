@@ -127,13 +127,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="product.cpp" />
+    <ClCompile Include="CPU.cpp" />
+    <ClCompile Include="HDD.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="Monitor.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="test2.cpp" />
+    <ClCompile Include="Product.cpp" />
+    <ClCompile Include="RAM.cpp" />
+    <ClCompile Include="SSD.cpp" />
+    <ClCompile Include="VGA.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="menu.h" />
+    <ClInclude Include="HDD.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Monitor.h" />
+    <ClInclude Include="Mouse.h" />
     <ClInclude Include="pgm.h" />
+    <ClInclude Include="Product.h" />
+    <ClInclude Include="CPU.h" />
+    <ClInclude Include="RAM.h" />
+    <ClInclude Include="SSD.h" />
+    <ClInclude Include="VGA.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
