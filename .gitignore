@@ -30,3 +30,14 @@
 *.exe
 *.out
 *.app
+
+*.vsidx
+*.lock
+*.suo
+*.recipe
+*.ilk
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.pdb
