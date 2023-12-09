@@ -11,8 +11,9 @@ void RAM::view() {
 	cout << capacity << "GB" << endl;
 }
 
-void RAM::write() {
-
+void RAM::write(ofstream& os) {
+	os << "r " << getName() << " " << getManufacturer() << " " << classifiction << " "
+		<< capacity << endl;
 }
 
 RAM::RAM(string name, string manufacturer, string classifiction, int capacity) : Product(name, manufacturer) {

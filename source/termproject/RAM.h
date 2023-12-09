@@ -8,7 +8,6 @@ class RAM : public Product {
 public:
 	static int getNum();
 	void view();
-	void write();
+	void write(ofstream& os);
 	RAM(string name, string manufacturer, string classifiction, int capacity);
-
 };

@@ -16,8 +16,9 @@ void HDD::view() {
 	cout << "기록 방식 : " << recording_method << endl;
 }
 
-void HDD::write() {
-
+void HDD::write(ofstream& os) {
+	os << "h " << getName() << " " << getManufacturer() << " " << classification << " "
+		<< recording_method << " " << capacity << " " << RPM << endl;
 }
 
 HDD::HDD(string name, string manufacturer, string classification, int capacity, int RPM, string recording_method) : Product(name, manufacturer) {

@@ -10,7 +10,7 @@ class VGA : public Product {
 public:
 	static int getNum();
 	void view();
-	void write();
+	void write(ofstream& os);
 	VGA(string name, string manufacturer, string chip_set, string chip_set_detail, int port_num, int memory);
 };
 

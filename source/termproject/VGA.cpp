@@ -11,8 +11,9 @@ void VGA::view() {
 	cout << "¸Þ¸ð¸® : " << memory << "GB" << endl;
 }
 
-void VGA::write() {
-
+void VGA::write(ofstream& os) {
+	os << "v " << getName() << " " << getManufacturer() << " " << chip_set << " "
+		<< chip_set_detail << " " << port_num << " " << memory << endl;
 }
 
 VGA::VGA(string name, string manufacturer, string chip_set, string chip_set_detail, int port_num, int memory) : Product(name, manufacturer) {

@@ -9,6 +9,7 @@ public:
 	Product(string name, string manufacturer);
 	static int getNum();
 	virtual void view() = 0;
-	virtual void write() = 0;
+	virtual void write(ofstream& os) = 0;
 	string getName();
+	string getManufacturer();
 };
