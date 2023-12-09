@@ -7,5 +7,5 @@ class Person {
 
 public:
 	Person(string name);
-	virtual void find(vector<Product>products);
+	virtual void find(vector<Product>products) = 0;
 };

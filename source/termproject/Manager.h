@@ -3,6 +3,6 @@
 
 class Manager : public Person {
 public:
-	Manager();
+	Manager(string name);
 	void find(vector<Product>products);
-}
+};
