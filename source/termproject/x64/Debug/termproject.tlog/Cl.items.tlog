@@ -1,28 +1,14 @@
-<<<<<<< HEAD
-C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\CPU.cpp;C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\x64\Debug\CPU.obj
-C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\HDD.cpp;C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\x64\Debug\HDD.obj
-C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\Keyboard.cpp;C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\x64\Debug\Keyboard.obj
-C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\Monitor.cpp;C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\x64\Debug\Monitor.obj
-C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\Mouse.cpp;C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\x64\Debug\Mouse.obj
-C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\Menu.cpp;C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\x64\Debug\Menu.obj
-C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\main.cpp;C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\x64\Debug\main.obj
-C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\Product.cpp;C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\x64\Debug\Product.obj
-C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\SystemtManager.cpp;C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\x64\Debug\SystemtManager.obj
-C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\RAM.cpp;C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\x64\Debug\RAM.obj
-C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\SSD.cpp;C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\x64\Debug\SSD.obj
-C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\VGA.cpp;C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\x64\Debug\VGA.obj
-=======
 C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\CPU.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\CPU.obj
 C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\HDD.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\HDD.obj
 C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\Keyboard.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\Keyboard.obj
+C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\Manager.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\Manager.obj
 C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\Monitor.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\Monitor.obj
 C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\Mouse.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\Mouse.obj
 C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\Menu.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\Menu.obj
 C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\main.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\main.obj
 C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\Person.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\Person.obj
 C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\Product.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\Product.obj
-C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\ProductManager.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\ProductManager.obj
+C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\SystemtManager.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\SystemtManager.obj
 C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\RAM.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\RAM.obj
 C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\SSD.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\SSD.obj
 C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\VGA.cpp;C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\termproject\x64\Debug\VGA.obj
->>>>>>> 709478255f366b771379edde5a22524cf64a84a2
