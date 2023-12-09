@@ -6,8 +6,9 @@ class Keyboard : public Product {
 	string arragement;
 	string type;
 public:
-	static int getNum();
+	int getNum();
+	void setNum(int num);
 	void view();
 	void write(ofstream& os);
-	Keyboard(string name, string manufacturer, string arragement, string type);
+	Keyboard(string name, string manufacturer, string arragement, string type, string date);
 };

@@ -4,6 +4,8 @@ int Mouse::num = 0;
 
 int Mouse::getNum() { return num; }
 
+void Mouse::setNum(int num) { this->num = num; }
+
 void Mouse::view() {
 	cout << "ÀÌ¸§ : " << getName() << endl;
 	if(mouse_cable)
@@ -13,10 +15,10 @@ void Mouse::view() {
 }
 
 void Mouse::write(ofstream& os) {
-	os << "m " << getName() << " " << getManufacturer() << " " << mouse_cable << endl;
+	os << "m " << getName() << " " << getManufacturer() << " " << mouse_cable << " " << getDate() << endl;
 }
 
-Mouse::Mouse(string name, string manufacturer, bool mouse_cable) : Product(name, manufacturer) {
+Mouse::Mouse(string name, string manufacturer, bool mouse_cable, string date) : Product(name, manufacturer, date) {
 	this->mouse_cable = mouse_cable;
 	num++;
 }

@@ -1,4 +1,5 @@
-﻿  Manager.cpp
-  Person.cpp
-  코드를 생성하고 있습니다...
-  termproject.vcxproj -> C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\x64\Debug\termproject.exe
+﻿  Menu.cpp
+C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\Menu.cpp(15,6): warning C4101: 'input_back' :참조되지 않은 지역 변수입니다.
+C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\Menu.cpp(32,6): warning C4101: 'input_back' :참조되지 않은 지역 변수입니다.
+C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\termproject\Menu.cpp(46,6): warning C4101: 'input_back' :참조되지 않은 지역 변수입니다.
+  termproject.vcxproj -> C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\x64\Debug\termproject.exe

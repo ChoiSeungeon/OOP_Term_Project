@@ -6,8 +6,9 @@ class RAM : public Product {
 	string classifiction;
 	int capacity;
 public:
-	static int getNum();
+	int getNum();
+	void setNum(int num);
 	void view();
 	void write(ofstream& os);
-	RAM(string name, string manufacturer, string classifiction, int capacity);
+	RAM(string name, string manufacturer, string classifiction, int capacity, string date);
 };

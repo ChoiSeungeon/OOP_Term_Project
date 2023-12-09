@@ -4,6 +4,8 @@ int Keyboard::num = 0;
 
 int Keyboard::getNum() { return num; }
 
+void Keyboard::setNum(int num) { this->num = num; }
+
 void Keyboard::view() {
 	cout << "이름 : " << getName() << endl;
 	cout << "키 배열 : " << arragement << endl;
@@ -12,10 +14,10 @@ void Keyboard::view() {
 
 void Keyboard::write(ofstream& os) {
 	os << "k " << getName() << " " << getManufacturer() << " " << arragement << " "
-		<< type << endl;
+		<< type << " " << getDate() << endl;
 }
 
-Keyboard::Keyboard(string name, string manufacturer, string arragement, string type) : Product(name, manufacturer){
+Keyboard::Keyboard(string name, string manufacturer, string arragement, string type, string date) : Product(name, manufacturer, date){
 	this->type = type;
 	this->arragement = arragement;
 	num++;

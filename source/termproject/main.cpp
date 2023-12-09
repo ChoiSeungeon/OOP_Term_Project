@@ -2,10 +2,8 @@
 #include "SystemManager.h"
 
 int main(void) {
-	SystemManager systemManager;
+	SystemManager* systemManager = new SystemManager();
+	Menu menu(systemManager);
 
-	for (auto& p : systemManager.product_list)
-		p->view();
-
-	//main_menu();
+	menu.login_menu();
 }

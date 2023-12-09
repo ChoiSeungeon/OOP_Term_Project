@@ -6,8 +6,9 @@ class SSD : public Product {
 	string form_factor;
 	int capacity;
 public:
-	static int getNum();
+	int getNum();
+	void setNum(int num);
 	void view();
 	void write(ofstream& os);
-	SSD(string name, string manufacturer, string form_factor, int capacity);
+	SSD(string name, string manufacturer, string form_factor, int capacity, string date);
 };

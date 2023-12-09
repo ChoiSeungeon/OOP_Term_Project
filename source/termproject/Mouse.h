@@ -5,8 +5,9 @@ class Mouse : public Product {
 	static int num;
 	bool mouse_cable;
 public:
-	static int getNum();
+	int getNum();
+	void setNum(int num);
 	void view();
 	void write(ofstream& os);
-	Mouse(string name, string manufacturer, bool mouse_cable);
+	Mouse(string name, string manufacturer, bool mouse_cable, string date);
 };

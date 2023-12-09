@@ -7,8 +7,9 @@ class Monitor : public Product {
 	string scan_rate;
 	string resolution;	
 public:
-	static int getNum();
+	int getNum();
+	void setNum(int num);
 	void view();
 	void write(ofstream& os);
-	Monitor(string name, string manufacturer, int inch, string scan_rate, string resolution);
+	Monitor(string name, string manufacturer, int inch, string scan_rate, string resolution, string date);
 };

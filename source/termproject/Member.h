@@ -3,6 +3,6 @@
 
 class Member : public Person {
 public:
-	Member(string name);
-	void find(vector<Product>products);
+	Member(string id, string password, string name, string pos);
+	void find(vector<Product*>products);
 };

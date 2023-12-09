@@ -4,6 +4,8 @@ int RAM::num = 0;
 
 int RAM::getNum() { return num; }
 
+void RAM::setNum(int num) { this->num = num; }
+
 void RAM::view() {
 	cout << "이름 : " << getName() << endl;
 	cout << "종류 : " << classifiction << endl;
@@ -13,10 +15,10 @@ void RAM::view() {
 
 void RAM::write(ofstream& os) {
 	os << "r " << getName() << " " << getManufacturer() << " " << classifiction << " "
-		<< capacity << endl;
+		<< capacity << " " << getDate() << endl;
 }
 
-RAM::RAM(string name, string manufacturer, string classifiction, int capacity) : Product(name, manufacturer) {
+RAM::RAM(string name, string manufacturer, string classifiction, int capacity, string date) : Product(name, manufacturer, date) {
 	this->classifiction = classifiction;
 	this->capacity = capacity;
 	num++;

@@ -4,6 +4,8 @@ int VGA::num = 0;
 
 int VGA::getNum() { return num; }
 
+void VGA::setNum(int num) { this->num = num; }
+
 void VGA::view() {
 	cout << "이름 : " << getName() << endl;
 	cout << "칩셋 : " << chip_set << " " << chip_set_detail << endl;
@@ -13,10 +15,10 @@ void VGA::view() {
 
 void VGA::write(ofstream& os) {
 	os << "v " << getName() << " " << getManufacturer() << " " << chip_set << " "
-		<< chip_set_detail << " " << port_num << " " << memory << endl;
+		<< chip_set_detail << " " << port_num << " " << memory << " " << getDate() << endl;
 }
 
-VGA::VGA(string name, string manufacturer, string chip_set, string chip_set_detail, int port_num, int memory) : Product(name, manufacturer) {
+VGA::VGA(string name, string manufacturer, string chip_set, string chip_set_detail, int port_num, int memory, string date) : Product(name, manufacturer, date) {
 	this->chip_set = chip_set;
 	this->chip_set_detail = chip_set_detail;
 	this->port_num = port_num;
