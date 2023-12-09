@@ -9,6 +9,6 @@ class Monitor : public Product {
 public:
 	static int getNum();
 	void view();
-	void write();
+	void write(ofstream& os);
 	Monitor(string name, string manufacturer, int inch, string scan_rate, string resolution);
 };

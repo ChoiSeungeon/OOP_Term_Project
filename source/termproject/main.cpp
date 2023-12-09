@@ -1,10 +1,10 @@
 #include "menu.h"
-#include "ProductManager.h"
+#include "SystemManager.h"
 
 int main(void) {
-	vector<Product*> products = getProducts();
+	SystemManager systemManager;
 
-	for (auto& p : products)
+	for (auto& p : systemManager.product_list)
 		p->view();
 
 	//main_menu();

@@ -7,6 +7,6 @@ class Mouse : public Product {
 public:
 	static int getNum();
 	void view();
-	void write();
+	void write(ofstream& os);
 	Mouse(string name, string manufacturer, bool mouse_cable);
 };

@@ -16,8 +16,9 @@ void CPU::view() {
 		cout << "내장그래픽 여부 : X" << endl;
 }
 
-void CPU::write() {
-
+void CPU::write(ofstream& os) {
+	os << "c " << getName() << " " << getManufacturer() << " " << classification << " "
+		<< core_num << " " << thread_num << " " << L3_cache << " " << bulid_in_graphics << endl;
 }
 
 CPU::CPU(string name, string manufacturer, string classification, int core_num, int thread_num, int L3_cache, bool bulid_in_graphics) : Product(name, manufacturer) {

@@ -8,6 +8,6 @@ class Keyboard : public Product {
 public:
 	static int getNum();
 	void view();
-	void write();
+	void write(ofstream& os);
 	Keyboard(string name, string manufacturer, string arragement, string type);
 };

@@ -14,8 +14,9 @@ void SSD::view() {
 		cout << capacity / 1000 << "TB" << endl;
 }
 
-void SSD::write() {
-
+void SSD::write(ofstream& os) {
+	os << "s " << getName() << " " << getManufacturer() << " " << form_factor << " "
+		<< capacity << endl;
 }
 
 SSD::SSD(string name, string manufacturer, string form_factor, int capacity) : Product(name, manufacturer) {

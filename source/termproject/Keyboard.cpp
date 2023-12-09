@@ -10,8 +10,9 @@ void Keyboard::view() {
 	cout << "е╦ют : " << type << endl;
 }
 
-void Keyboard::write() {
-
+void Keyboard::write(ofstream& os) {
+	os << "k " << getName() << " " << getManufacturer() << " " << arragement << " "
+		<< type << endl;
 }
 
 Keyboard::Keyboard(string name, string manufacturer, string arragement, string type) : Product(name, manufacturer){

@@ -11,6 +11,6 @@ class CPU : public Product {
 public:
 	static int getNum();
 	void view();
-	void write();
+	void write(ofstream& os);
 	CPU(string name, string manufacturer, string classification, int core_num, int thread_num, int L3_cache, bool bulid_in_graphics);
 };

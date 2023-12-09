@@ -11,8 +11,9 @@ void Monitor::view() {
 	cout << "ÇØ»óµµ : " << resolution << endl;
 }
 
-void Monitor::write() {
-
+void Monitor::write(ofstream& os) {
+	os << "M " << getName() << " " << getManufacturer() << " " << inch << " "
+		<< scan_rate << " " << resolution << endl;
 }
 
 Monitor::Monitor(string name, string manufacturer, int inch, string scan_rate, string resolution) : Product(name, manufacturer) {

@@ -3,13 +3,12 @@
 
 class HDD : public Product {
 	static int num;
-	string classification;
+	string classification, recording_method;
 	int capacity;
 	int RPM;
-	string recording_method;
 public:
 	static int getNum();
 	void view();
-	void write();
+	void write(ofstream& os);
 	HDD(string name, string manufacturer, string classification, int capacity, int RPM, string recording_method);
 };

@@ -8,6 +8,6 @@ class SSD : public Product {
 public:
 	static int getNum();
 	void view();
-	void write();
+	void write(ofstream& os);
 	SSD(string name, string manufacturer, string form_factor, int capacity);
 };

@@ -12,8 +12,8 @@ void Mouse::view() {
 		cout << "유무선 여부 : X" << endl;
 }
 
-void Mouse::write() {
-
+void Mouse::write(ofstream& os) {
+	os << "m " << getName() << " " << getManufacturer() << " " << mouse_cable << endl;
 }
 
 Mouse::Mouse(string name, string manufacturer, bool mouse_cable) : Product(name, manufacturer) {
