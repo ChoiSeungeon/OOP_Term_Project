@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 ﻿  SystemtManager.cpp
   termproject.vcxproj -> C:\Users\Choi\Desktop\git\OOP_Trem_Project\source\x64\Debug\termproject.exe
+=======
+﻿  main.cpp
+  termproject.vcxproj -> C:\Users\dokgo\OneDrive\바탕 화면\term_project\OOP_Term_Project\source\x64\Debug\termproject.exe
+>>>>>>> 709478255f366b771379edde5a22524cf64a84a2
