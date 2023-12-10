@@ -6,4 +6,5 @@
 #include <string>
 #include <Windows.h>
 #include <ctime>
+#include <algorithm>
 using namespace std;

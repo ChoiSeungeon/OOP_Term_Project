@@ -2,7 +2,7 @@
 #include "Product.h"
 
 class Mouse : public Product {
-	static int num;
+	int num;
 	bool mouse_cable;
 public:
 	int getNum();

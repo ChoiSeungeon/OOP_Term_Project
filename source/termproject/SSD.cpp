@@ -1,7 +1,4 @@
 #include "SSD.h"
-
-int SSD::num = 0;
-
 int SSD::getNum() { return num; }
 
 void SSD::setNum(int num) { this->num = num; }
@@ -14,6 +11,7 @@ void SSD::view() {
 		cout << capacity << "GB" << endl;
 	else
 		cout << capacity / 1000 << "TB" << endl;
+	cout << "¼ö·® : " << this->num << endl;
 }
 
 void SSD::write(ofstream& os) {
@@ -24,5 +22,5 @@ void SSD::write(ofstream& os) {
 SSD::SSD(string name, string manufacturer, string form_factor, int capacity, string date) : Product(name, manufacturer, date) {
 	this->form_factor = form_factor;
 	this->capacity = capacity;
-	num++;
+	num = 1;
 }

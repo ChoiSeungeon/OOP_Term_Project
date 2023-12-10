@@ -2,7 +2,7 @@
 #include "Product.h"
 
 class VGA : public Product {
-	static int num;
+	int num;
 	string chip_set;
 	string chip_set_detail;
 	int port_num;

@@ -1,7 +1,4 @@
 #include "CPU.h"
-
-int CPU::num = 0;
-
 int CPU::getNum() { return num; }
 
 void CPU::setNum(int num) { this->num = num; }
@@ -16,6 +13,7 @@ void CPU::view() {
 		cout << "내장그래픽 여부 : O" << endl;
 	else
 		cout << "내장그래픽 여부 : X" << endl;
+	cout << "수량 : \t" << this->num << endl;
 }
 
 void CPU::write(ofstream& os) {
@@ -29,5 +27,5 @@ CPU::CPU(string name, string manufacturer, string classification, int core_num, 
 	this->thread_num = thread_num;
 	this->L3_cache = L3_cache;
 	this->bulid_in_graphics = bulid_in_graphics;
-	num++;
+	num = 1;
 }

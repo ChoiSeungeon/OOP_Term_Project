@@ -1,7 +1,4 @@
 #include "HDD.h"
-
-int HDD::num = 0;
-
 int HDD::getNum() { return num; }
 
 void HDD::setNum(int num) { this->num = num; }
@@ -16,6 +13,7 @@ void HDD::view() {
 		cout << capacity/1000 << "TB" << endl;
 	cout << "회전수 : " << RPM << "RPM" << endl;
 	cout << "기록 방식 : " << recording_method << endl;
+	cout << "수량 : " << this->num << endl;
 }
 
 void HDD::write(ofstream& os) {
@@ -28,5 +26,5 @@ HDD::HDD(string name, string manufacturer, string classification, int capacity, 
 	this->capacity = capacity;
 	this->RPM = RPM;
 	this->recording_method = recording_method;
-	num++;
+	num = 1;
 }

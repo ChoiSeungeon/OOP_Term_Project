@@ -2,7 +2,7 @@
 #include "Product.h"
 
 class CPU : public Product {
-	static int num;
+	int num;
 	string classification;
 	int core_num;
 	int thread_num;

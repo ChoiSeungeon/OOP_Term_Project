@@ -10,5 +10,4 @@ public:
 	~SystemManager();
 	vector<Product*>* getProductV();
 	vector<Person*>* getPersonV();
-	
 };

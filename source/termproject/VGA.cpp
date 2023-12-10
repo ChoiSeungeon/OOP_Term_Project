@@ -1,7 +1,4 @@
 #include "VGA.h"
-
-int VGA::num = 0;
-
 int VGA::getNum() { return num; }
 
 void VGA::setNum(int num) { this->num = num; }
@@ -11,6 +8,7 @@ void VGA::view() {
 	cout << "칩셋 : " << chip_set << " " << chip_set_detail << endl;
 	cout << "포트 수 : " << port_num << endl;
 	cout << "메모리 : " << memory << "GB" << endl;
+	cout << "수량 : " << this->num << endl;
 }
 
 void VGA::write(ofstream& os) {
@@ -23,5 +21,5 @@ VGA::VGA(string name, string manufacturer, string chip_set, string chip_set_deta
 	this->chip_set_detail = chip_set_detail;
 	this->port_num = port_num;
 	this->memory = memory;
-	num++;
+	num = 1;
 }

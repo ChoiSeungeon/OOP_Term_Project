@@ -3,12 +3,25 @@
 SystemManager::SystemManager() {
 	product_list = new vector<Product*>();
 	string detail, name, manufacturer, temp, date;
-	Product* product;
+	bool duflag = false;
+	Product* product = NULL, *duproduct = NULL;
 	ifstream file("Product.txt");
 
 	if (file.is_open()) {
 		while (!file.eof()) {
 			file >> detail >> name >> manufacturer;
+
+			if (detail == "E")
+				break;
+
+			for (auto& p : *product_list) {
+				if (p->getName() == name) {
+					duflag = true;
+					duproduct = p;
+					break;
+				}
+			}
+
 			if (detail == "k") {
 				string arragement, type;
 				file >> arragement >> type >> date;
@@ -58,7 +71,12 @@ SystemManager::SystemManager() {
 				product = new VGA(name, manufacturer, chip_set, chip_set_detail, port_num, memory, date);
 			}
 
-			if(detail != "E")
+			if (duflag) {
+				duproduct->setNum(duproduct->getNum() + 1);
+				delete product;
+				duflag = false;
+			}
+			else
 				product_list->push_back(product);
 		}
 	}
@@ -96,6 +114,7 @@ SystemManager::~SystemManager() {
 		for (int i = 0; i < p->getNum(); i++) {
 			p->write(file);
 		}
+		delete p;
 	}
 	file << "E";
 	file.close();
@@ -103,6 +122,7 @@ SystemManager::~SystemManager() {
 	ofstream file2("Person.txt");
 	for (auto& p : *person_list) {
 		p->write(file2);
+		delete p;
 	}
 	file2 << "E";
 	file2.close();

@@ -2,7 +2,7 @@
 #include "Product.h"
 
 class SSD : public Product {
-	static int num;
+	int num;
 	string form_factor;
 	int capacity;
 public:

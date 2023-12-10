@@ -15,4 +15,5 @@ public:
 	string getName();
 	string getManufacturer();
 	string getDate();
+	void setDate(string date);
 };

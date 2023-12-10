@@ -18,5 +18,5 @@ public:
 	string getPassword();
 	string getPos();
 	void write(ostream& os);
-	virtual void find(vector<Product*>products) = 0;
+	virtual void view(Product* products) = 0;
 };

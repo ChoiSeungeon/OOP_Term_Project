@@ -2,7 +2,7 @@
 #include "Product.h"
 
 class RAM : public Product {
-	static int num;
+	int num;
 	string classifiction;
 	int capacity;
 public:

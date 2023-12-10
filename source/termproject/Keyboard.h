@@ -2,7 +2,7 @@
 #include "Product.h"
 
 class Keyboard : public Product {
-	static int num;
+	int num;
 	string arragement;
 	string type;
 public:

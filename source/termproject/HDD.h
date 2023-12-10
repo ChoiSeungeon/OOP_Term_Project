@@ -2,7 +2,7 @@
 #include "Product.h"
 
 class HDD : public Product {
-	static int num;
+	int num;
 	string classification, recording_method, date;
 	int capacity;
 	int RPM;

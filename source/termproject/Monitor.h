@@ -2,7 +2,7 @@
 #include "Product.h"
 
 class Monitor : public Product {
-	static int num;
+	int num;
 	int inch;
 	string scan_rate;
 	string resolution;	
